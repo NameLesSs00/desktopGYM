@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1353</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="widget_5">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color:#D9D9D9</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item alignment="Qt::AlignmentFlag::AlignLeft">
+          <widget class="QWidget" name="widget" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item alignment="Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter">
+             <widget class="QLabel" name="label_2">
+              <property name="layoutDirection">
+               <enum>Qt::LayoutDirection::RightToLeft</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="rec.qrc">:/C:/Users/b/Desktop/main/work/QT/GymProject/public/icon.png</pixmap>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignmentFlag::AlignLeft">
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color:#000000</string>
+              </property>
+              <property name="text">
+               <string>Welocme Admin</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="minimumSize">
+               <size>
+                <width>111</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: #FC4A4A;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #e04343;   /* Darker red on hover */
+}
+
+QPushButton:pressed {
+    background-color: #c83737;   /* Even darker when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Logout</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Sales</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_3">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Employee</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_10">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Expenses</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_5">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Reports</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Main/HelpDesk</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_4">
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: black;     /* Normal background */
+    color: white;                 /* Text color */
+    border-radius: 20px;          /* Rounded corners */
+    border: none;                 /* Optional: remove border */
+    padding: 5px 12px;            /* Optional: add some spacing */
+}
+
+QPushButton:hover {
+    background-color: #333333;    /* Dark gray on hover */
+}
+
+QPushButton:pressed {
+    background-color: #555555;    /* Lighter gray when clicked */
+}
+</string>
+              </property>
+              <property name="text">
+               <string>Main/Cashier</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="styleSheet">
+         <string notr="true">#widget_4{
+background-color:#EAE8E8
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <widget class="QWidget" name="sales">
+            <property name="styleSheet">
+             <string notr="true">#sales{
+background-color:#EAE8E8;
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QPushButton" name="pushButton_7">
+                 <property name="minimumSize">
+                  <size>
+                   <width>111</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #5AB62C;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #4AA222;   /* Slightly darker green on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3E8A1D;   /* Even darker green when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Enter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border-radius: 20px;          /* Rounded corners */
+    color: black;                 /* Font color */
+    padding: 5px 10px;            /* Padding inside */
+    background-color: #C5C1C1;    /* New background color */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>search  by id </string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget">
+               <property name="styleSheet">
+                <string notr="true">/* Table headers */
+QHeaderView::section {
+    background-color: #AD7B3A;  /* header background */
+    color: white;               /* header text color */
+    font-weight: bold;
+    border: 1px solid #B0A7A7; /* optional border */
+}
+
+/* Odd rows (row 1, 3, 5...) */
+QTableWidget::item:!alternate {
+    background-color: #534F4F;
+    color: white;
+}
+
+/* Even rows (row 2, 4, 6...) */
+QTableWidget::item:alternate {
+    background-color: #BEB7B7;
+    color: black;
+}
+</string>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+               </property>
+               <property name="alternatingRowColors">
+                <bool>true</bool>
+               </property>
+               <property name="rowCount">
+                <number>3</number>
+               </property>
+               <property name="columnCount">
+                <number>8</number>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderCascadingSectionResizes">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderHighlightSections">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderStretchLastSection">
+                <bool>false</bool>
+               </attribute>
+               <row/>
+               <row/>
+               <row/>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QPushButton" name="pushButton_8">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #8D3F2A;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #753526;   /* Slightly darker brown on hover */
+}
+
+QPushButton:pressed {
+    background-color: #5C281F;   /* Even darker brown when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Get Sales Report</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Orientation::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="reports">
+            <property name="styleSheet">
+             <string notr="true">#reports{
+background-color:#EAE8E8;
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QPushButton" name="pushButton_9">
+                 <property name="minimumSize">
+                  <size>
+                   <width>111</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #5AB62C;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #4AA222;   /* Slightly darker green on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3E8A1D;   /* Even darker green when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Enter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border-radius: 20px;          /* Rounded corners */
+    color: black;                 /* Font color */
+    padding: 5px 10px;            /* Padding inside */
+    background-color: #C5C1C1;    /* New background color */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>search  by id </string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_2">
+               <property name="styleSheet">
+                <string notr="true">/* Table headers */
+QHeaderView::section {
+    background-color: #AD7B3A;  /* header background */
+    color: white;               /* header text color */
+    font-weight: bold;
+    border: 1px solid #B0A7A7; /* optional border */
+}
+
+/* Odd rows (row 1, 3, 5...) */
+QTableWidget::item:!alternate {
+    background-color: #534F4F;
+    color: white;
+}
+
+/* Even rows (row 2, 4, 6...) */
+QTableWidget::item:alternate {
+    background-color: #BEB7B7;
+    color: black;
+}
+</string>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+               </property>
+               <property name="alternatingRowColors">
+                <bool>true</bool>
+               </property>
+               <property name="rowCount">
+                <number>3</number>
+               </property>
+               <property name="columnCount">
+                <number>8</number>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderCascadingSectionResizes">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderHighlightSections">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderStretchLastSection">
+                <bool>false</bool>
+               </attribute>
+               <row/>
+               <row/>
+               <row/>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="expenses">
+            <property name="styleSheet">
+             <string notr="true">#expenses{
+background-color:#EAE8E8;
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <widget class="QPushButton" name="pushButton_13">
+                 <property name="minimumSize">
+                  <size>
+                   <width>111</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #5AB62C;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #4AA222;   /* Slightly darker green on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3E8A1D;   /* Even darker green when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Enter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_4">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border-radius: 20px;          /* Rounded corners */
+    color: black;                 /* Font color */
+    padding: 5px 10px;            /* Padding inside */
+    background-color: #C5C1C1;    /* New background color */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>search  by id </string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_3">
+               <property name="styleSheet">
+                <string notr="true">/* Table headers */
+QHeaderView::section {
+    background-color: #AD7B3A;  /* header background */
+    color: white;               /* header text color */
+    font-weight: bold;
+    border: 1px solid #B0A7A7; /* optional border */
+}
+
+/* Odd rows (row 1, 3, 5...) */
+QTableWidget::item:!alternate {
+    background-color: #534F4F;
+    color: white;
+}
+
+/* Even rows (row 2, 4, 6...) */
+QTableWidget::item:alternate {
+    background-color: #BEB7B7;
+    color: black;
+}
+</string>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+               </property>
+               <property name="alternatingRowColors">
+                <bool>true</bool>
+               </property>
+               <property name="rowCount">
+                <number>3</number>
+               </property>
+               <property name="columnCount">
+                <number>8</number>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderVisible">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderCascadingSectionResizes">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderHighlightSections">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderStretchLastSection">
+                <bool>false</bool>
+               </attribute>
+               <row/>
+               <row/>
+               <row/>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_10">
+               <item>
+                <widget class="QPushButton" name="pushButton_14">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #8D3F2A;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #753526;   /* Slightly darker brown on hover */
+}
+
+QPushButton:pressed {
+    background-color: #5C281F;   /* Even darker brown when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Add expenses</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_3">
+                 <property name="orientation">
+                  <enum>Qt::Orientation::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="employee">
+            <property name="styleSheet">
+             <string notr="true">#employee{
+background-color:#EAE8E8;
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_11">
+               <item>
+                <widget class="QPushButton" name="pushButton_15">
+                 <property name="minimumSize">
+                  <size>
+                   <width>111</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #5AB62C;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #4AA222;   /* Slightly darker green on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3E8A1D;   /* Even darker green when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Enter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_5">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border-radius: 20px;          /* Rounded corners */
+    color: black;                 /* Font color */
+    padding: 5px 10px;            /* Padding inside */
+    background-color: #C5C1C1;    /* New background color */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>search  by id </string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_4">
+               <property name="styleSheet">
+                <string notr="true">/* Table headers */
+QHeaderView::section {
+    background-color: #AD7B3A;  /* header background */
+    color: white;               /* header text color */
+    font-weight: bold;
+    border: 1px solid #B0A7A7; /* optional border */
+}
+
+/* Odd rows (row 1, 3, 5...) */
+QTableWidget::item:!alternate {
+    background-color: #534F4F;
+    color: white;
+}
+
+/* Even rows (row 2, 4, 6...) */
+QTableWidget::item:alternate {
+    background-color: #BEB7B7;
+    color: black;
+}
+</string>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+               </property>
+               <property name="alternatingRowColors">
+                <bool>true</bool>
+               </property>
+               <property name="rowCount">
+                <number>3</number>
+               </property>
+               <property name="columnCount">
+                <number>8</number>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderVisible">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderCascadingSectionResizes">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderHighlightSections">
+                <bool>true</bool>
+               </attribute>
+               <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                <bool>false</bool>
+               </attribute>
+               <attribute name="verticalHeaderStretchLastSection">
+                <bool>false</bool>
+               </attribute>
+               <row/>
+               <row/>
+               <row/>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>test</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_12">
+               <item>
+                <widget class="QPushButton" name="pushButton_16">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #8D3F2A;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #753526;   /* Slightly darker brown on hover */
+}
+
+QPushButton:pressed {
+    background-color: #5C281F;   /* Even darker brown when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Add employee </string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_17">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: #8D3F2A;   /* Normal background */
+    color: white;                /* Text color */
+    border-radius: 20px;         /* Rounded corners */
+}
+
+QPushButton:hover {
+    background-color: #753526;   /* Slightly darker brown on hover */
+}
+
+QPushButton:pressed {
+    background-color: #5C281F;   /* Even darker brown when clicked */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Add system User  </string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Orientation::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rec.qrc"/>
+ </resources>
+ <connections/>
+</ui>

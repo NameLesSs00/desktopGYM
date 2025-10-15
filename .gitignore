@@ -1,0 +1,76 @@
+# ========================
+# Python general ignores
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Byte-compiled / cache files
+*.cache
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ========================
+# Qt / PySide6 specific
+# ========================
+# Generated UI and resource files (if you compile .ui or .qrc)
+ui_*.py
+*_rc.py
+
+# Qt Creator build folders
+build-*/
+dist/
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+*.qmlc
+*.jsc
+
+# ========================
+# Configuration and secrets
+# ========================
+config.ini
+settings.ini
+*.env
+*.json.backup
+
+# ========================
+# OS / IDE files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# ========================
+# Installer / packaging
+# ========================
+*.spec
+*.exe
+*.msi
+*.app
+*.dmg
+*.zip
+*.tar
+*.tar.gz
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
